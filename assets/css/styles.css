@@ -1,0 +1,81 @@
+/* Fonte importada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Ranchers";
+}
+
+body {
+    background-color: #191970;
+}
+
+/* Estilização do cabeçalho */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4169E1;
+    padding: 20px 10px;
+    align-items: center;
+}
+
+.header-container h2 {
+    font-size: 50px;
+    color: #DAA520;
+}
+
+.nav-container {
+    width: 37%;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #DAA520;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-item {
+    transition: 0.5s;
+}
+
+.nav-item:hover,
+.button:hover {
+    background-color: #B8860B;
+    transform: scale(1.05);
+}
+
+/* Estilização dos quizes */
+
+.quiz-list {
+    display: flex;
+    padding: 30px;
+    list-style: none;
+}
+
+.quiz {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #DAA520;
+    border-radius: 5px;
+}
+
+/* Estilização do footer */
+.footer-container {
+    background-color: #4169E1;
+}
