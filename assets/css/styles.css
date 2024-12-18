@@ -58,6 +58,21 @@ body {
     transform: scale(1.05);
 }
 
+/* Estilização home */
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.about-container h1 {
+    font-size: 60px;
+    color: #DAA520;
+}
+
 /* Estilização dos quizes */
 
 .quiz-list {
